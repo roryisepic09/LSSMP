@@ -29,7 +29,7 @@ public class Configuration {
 
     static {
         configKeys.put("elimination.shouldEliminate", true);
-        configKeys.put("elimination.environmentStealsHearts", false);
+        configKeys.put("elimination.environmentStealsHearts", true);
 
         configKeys.put("elimination.bans.shouldBan", false);
         configKeys.put("elimination.bans.banMessage", "&cYou been banned due to loosing all of your hearts, your last killer was &4%player%");
